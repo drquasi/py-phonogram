@@ -6,13 +6,17 @@ What I needed was a way to play music from audio files on my own machine, which 
 This bot was created to do that. Once setup, you can play mp3s, wavs, flacs, m4as on your PC directly into a VC through the bot.
 There's a UI for you to easily switch around songs, too. No discord commands needed!!
 
-## Key Features
+All this effort, just so I can play background music for my players when they go through a dungeon for the 1000th time.
 
-- **Background Audio Optimization**: Automatically transcodes files to high-quality Opus in the background for instant, lag-free playback.
+Built with discord.py, customtkinter, and ffmpeg.
+
+## Cool Features
+
+- **Background Audio Optimisation**: Automatically transcodes files to high-quality Opus in the background for instant, lag-free playback.
 - **Smart Disk Cache**: Persistent central cache (`.phonograph_cache`) ensures optimized tracks never need to be processed twice.
 - **Normalization**: Real-time `loudnorm` filter (EBU R128) ensures consistent volume across all tracks!
 - **Precise Seeking & Progress**: Smooth progress tracking and instant seeking via a native Windows-style slider!
-- **Looping & Controls**: Easily toggle looping and manage playback via the ribbon-style toolbar!
+- **Looping & Controls**: Hate Discord's command controls? Easily toggle looping and manage playback via the ribbon-style toolbar!
 
 ## Installation
 
@@ -53,4 +57,4 @@ python -m src.phonograph
 - `!leave`: Disconnects the bot from voice.
 
 
-Mainly built for personal use, please don't expect too much heh
+Mainly built for personal use, please don't expect too much heh (づ￣ ³￣)づ 
